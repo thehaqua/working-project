@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2>Create Thread</h2>
+        <p class="lead">foobar text</p>
+    </div>
+    <div>
+        <div class="align-baseline">
+            <h4 class="mb-3">Create Thread</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="topic">Topic</label>
+                        <input type="text" class="form-control" id="topic" placeholder="Topic" value="" required="">
+                        <div class="invalid-feedback"> Topic Required. </div>
+                    </div>
+
+                </div>
+                <div class="mb-3">
+                    <label for="username">Name</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input type="text" class="form-control" id="name" placeholder="Name (Optional)" required="false">
+                        <div class="invalid-feedback" style="width: 100%;"> Name (Optional) </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="comment">Comment</label>
+                    <input type="comment" class="form-control input-mysize" id="comment" placeholder="Type your comment here...">
+                    <div class="invalid-feedback"> Please enter a valid string. </div>
+                </div>
+
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" >Submit Thread</button>
+            </form>
+        </div>
+    </div>

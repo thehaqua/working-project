@@ -1,0 +1,34 @@
+{
+  "name": "working-project",
+  "version": "1.0.0",
+  "description": "testing project 2",
+  "main": "server.js",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehaqua/working-project.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Tyler Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thehaqua/working-project/issues"
+  },
+  "homepage": "https://github.com/thehaqua/working-project#readme"
+}

@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS chorus.db;
+CREATE DATABASE chorus.db;

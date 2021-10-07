@@ -1,0 +1,18 @@
+[
+    {
+        "id": "001",
+        "topic": "Test Thread",
+        "Body": "Here is the body for the test post.",
+        "date_created": "1997-08-31",
+        "op": "1",
+        "thread_id": "001"
+    },
+    {
+        "id": "002",
+        "topic": null,
+        "Body": "Here is the body for the second test post.",
+        "date_created": "2009-01-20",
+        "op": "0",
+        "thread_id": "001"
+    }
+]
