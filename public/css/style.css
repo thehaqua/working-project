@@ -1,1 +1,33 @@
+.button-primary:hover {
+    background-color: #ff66ff !important;
+}
+
 .input-mysize { height: 200px }
+
+
+#logo {
+    height: 50px;
+    width: 50px;
+};
+
+
+
+strong {
+    color: #5cb85c
+}
+
+.logoWords {
+    color: #5cb85c
+}
+
+.btn-success {
+    background-color: #ff99ff;
+    border: none;
+};
+
+
+.btn-success:focus {
+
+    background-color: #ec008b
+
+  };

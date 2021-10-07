@@ -4,18 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Chorus</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/jazz.css">
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/makePost.js"></script>
 </head>
+<header>
+  <div class="navbar navbar-dark bg-dark box-shadow">
+    <div class="container d-flex justify-content-between">
+      <a href="/" class="navbar-brand d-flex align-items-center float-left">
+        <img src="/img/chorus.png" id="logo" alt="logo">
+        <strong class="logoWords">Chorus</strong>
+      </a>
+      <a href='/api/catalog'> <button class="btn btn-success text-dark"><strong>Catalog</strong></button>
+      </a>
+
+<!--      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+        aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> !-->
+      </button>
+    </div>
+  </div>
+</header>
 
 <body>
-
-<button id='newThreadBtn' class="btn btn-primary my-2">Create new Thread
-</button>
+  </button>
 </body>
 <main>
   {{{ body }}}
 </main>
+
 </html>
